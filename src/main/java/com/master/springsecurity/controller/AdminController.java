@@ -18,7 +18,7 @@ public class AdminController {
     @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/test")
 public String testAdmin(){
-    return "This is for Admin...";
+    return "This test is for Admin...";
 }
 
 @PostMapping("/addUser")
