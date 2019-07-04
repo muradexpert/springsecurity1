@@ -18,7 +18,7 @@ public class AdminController {
     @PreAuthorize("hasAuthority('ADMIN')")
     @GetMapping("/test")
 public String testAdmin(){
-        String a=" ";
+        Object o=null;
     return "This test is for Admin...";
 }
 
