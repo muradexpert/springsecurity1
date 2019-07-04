@@ -19,8 +19,8 @@ public class AdminController {
     @GetMapping("/test")
 public String testAdmin(){
 
-        int a=5;
-        int b=6;
+        String a="";
+        String b="3";
     return "This test is for Admin...";
 }
 
