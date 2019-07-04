@@ -19,10 +19,6 @@ public class AdminController {
     @GetMapping("/test")
 public String testAdmin(){
 
-
-
-
-        String a1=null;
     return "This test is for Admin...";
 }
 
